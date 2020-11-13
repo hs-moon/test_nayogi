@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+    <title></title>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <script type="module" src="../js/first.js"></script>
+    <div id="map" style="width:100%;height:100%;position:relative;overflow:hidden;"></div>
+    <div class="custom_typecontrol radius_border">
+        <span id="btnViewAll" class="viewall_btn" onclick="setMapType('viewall')">전체보기</span>
+        <span id="btnViewCurrent" class="viewcurrent_btn" onclick="setMapType('viewcurrent')">내위치</span>
+    </div>
+    <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=b1811d5c28d61f825d6d6b6c402b4e3a"></script>
+</body>
+</html>
