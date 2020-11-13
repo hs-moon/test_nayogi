@@ -1,9 +1,3 @@
-import {Text} from './text.js';
-import {BounceString} from './bouncestrings.js';
-import { distance } from './utils.js';
-import { MouseTrack } from './mouseTrack.js';
-import { Bar } from './bar.js';
-
 export class Visual {
     constructor(id) {
         this.id = id;
