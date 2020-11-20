@@ -68,7 +68,6 @@ export class Visual {
         this.customOverlay.setMap(this.map);
 
         kakao.maps.event.addListener(this.map, 'click', this.onMapClick.bind(this));
-        kakao.maps.event.addListener(this.map, 'click', this.onMapClick.bind(this));
     }
 
     show(stageWidth, stageHeight) {
